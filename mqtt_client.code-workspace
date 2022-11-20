@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cyw43_arch.h": "c",
+			"cyw43.h": "c",
+			"netif.h": "c",
+			"opt.h": "c",
+			"printf.h": "c",
+			"arch_common.h": "c",
+			"mqtt_example.h": "c",
+			"mqtt.h": "c",
+			"mqtt_opts.h": "c",
+			"mqtt_priv.h": "c",
+			"tcp.h": "c"
+		}
+	}
+}

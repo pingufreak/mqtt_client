@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+           "name": "Pico Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "${command:cmake.launchTargetPath}",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "external",
+            "gdbPath" : "gdb-multiarch",
+            "gdbTarget" : "/dev/ttyACM0",
+            "device": "RP2040",
+            "svdFile": "${env:PICO_SDK_PATH}/src/rp2040/hardware_regs/rp2040.svd",
+            "breakAfterReset": true,
+            "postLaunchCommands": [
+                "load",
+                "continue", 
+                "shell sleep 1",
+            ],
+            "postRestartCommands": [
+                "continue",
+                "shell sleep 1",
+            ],
+            "showDevDebugOutput": "both"
+        }
+    ]
+}
