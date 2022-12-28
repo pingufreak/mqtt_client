@@ -52,3 +52,4 @@ target_link_libraries(
 target_sources(
  mqtt_client PRIVATE ${PICO_SDK_PATH}/lib/lwip/src/apps/mqtt/mqtt.c
 )
+
