@@ -26,6 +26,8 @@ add_executable(
 
 target_compile_definitions(
  mqtt_client PRIVATE
+# WIFI_SSID="shhshdixsbwj"
+# WIFI_PASSWORD="teatteat" 
  WIFI_SSID="hanabi2"
  WIFI_PASSWORD="UQurpM2Aln6gl89D5x8S3Q7q1L8HqcI0Gagx5KFLuDBrqvIa3bYoY0F622NFRTr" 
 )
