@@ -26,10 +26,10 @@ add_executable(
 
 target_compile_definitions(
  mqtt_client PRIVATE
-# WIFI_SSID="shhshdixsbwj"
-# WIFI_PASSWORD="teatteat" 
- WIFI_SSID="hanabi2"
- WIFI_PASSWORD="UQurpM2Aln6gl89D5x8S3Q7q1L8HqcI0Gagx5KFLuDBrqvIa3bYoY0F622NFRTr" 
+ # wifi ssid in git history ist zum testen ;)
+ WIFI_SSID="bla"
+ # wifi passwort in git history ist zum testen ;)
+ WIFI_PASSWORD="blubb" 
 )
 
 pico_enable_stdio_usb(mqtt_client 1)
